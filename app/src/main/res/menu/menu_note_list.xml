@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_search"
+        android:title=""
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/search"
+        />
+    <item
+        android:id="@+id/menu_Layout"
+        android:icon="@drawable/grid"
+        android:title="Grid layout"
+        app:showAsAction="never"
+        android:visible="true" />
+    <item android:id="@+id/deleteAll"
+        android:title= "Delete all" />
+
+</menu>
